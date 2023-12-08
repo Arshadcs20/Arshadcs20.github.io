@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="HandheldFriendly" content="true" />
+    <!-- ADD META DESCRIPTION, KEYWORD, ETC -->
+    <!-- <meta name="description" content="Graduate researcher and algorithm designer with a passion for solving problems by " /> -->
+    <title>Muhammad Arshad</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/particle-styles.css" />
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"
+    />
+  </head>
+
+  <body>
+   
+
+    <section class="hero" id="home">
+      <!--  #####################################################################
+                                     Navbar
+            ##################################################################### -->
+
+      <div class="navbar-wrapper">
+        <div id="navbar" class="navbar shift">
+          <div class="container"></div>
+          <!-- <a href="#"><img class="logo" src="/images/logo.png" alt="logo" /> </a> -->
+          <img
+            id="mobile-cta"
+            class="mobile-menu"
+            src="images/menu.svg"
+            alt="Open Navigation"
+          />
+          <nav>
+            <img
+              id="mobile-exit"
+              class="mobile-menu-exit"
+              src="images/menu-close.svg"
+              alt="Close Navigation"
+            />
+            <ul class="nav-links">
+              <li class="current"><a href="#home">Home</a></li>
+              <li><a href="#publications">Projects</a></li>
+              <li><a href="#intro">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+          <!-- <a class="nav-cta" href="#"><button>Contact</button></a> -->
+        </div>
+      </div>
+
+      <!--  #####################################################################
+                                     Particles section
+            ##################################################################### -->
+
+      <div class="particle-network-animation"></div>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+      <script src="js/particles.js"></script>
+
+      <!--  #####################################################################
+                                     Info in the hero
+            ##################################################################### -->
+
+      <div class="hero-text">
+        <h1>Muhammad Arshad</h1>
+        <p>Computer Science | Web Developer</p>
+
+        <div class="call-to-action">
+          <a class="btn" href="#publications"
+            ><i class="fa fa-angle-down"></i>View projects</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!--  #####################################################################
+                                     Publications
+            ##################################################################### -->
+    <div id="overlay">
+      <p>DISMISS</p>
+    </div>
+    <section id="publications">
+      <div class="container">
+        <h2>Featured Projects</h2>
+        <hr class="title-line" />
+        <div class="papers-wrapper">
+          <div class="papers">
+            <div class="row">
+              <div class="column">
+                <div data-modal-target="#nudging-modal" class="paper">
+                  <div class="paper-background">
+                    <img src="images/ots1.png"  alt="ots image" />
+                    <div class="paper-title">
+                      <p>
+                        Online Testing System, a simple and standalone app to conduct online exams.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="paper-caption">
+                    <p>Online Testing System</p>
+                  </div>
+                </div>
+              </div>
+              <div class="paper-modal-wrapper">
+                <div class="paper-modal" id="nudging-modal">
+                  <div class="paper-modal-header">
+                    <div class="paper-modal-title">
+                      <p>
+                        Online Testing System, a simple and standalone app to conduct online exams.
+                      </p>
+                    </div>
+                    <button data-modal-close-btn class="modal-close-btn">
+                      <img
+                        src="images/menu-close.svg"
+                        alt="Close Description"
+                      />
+                    </button>
+                  </div>
+
+                  <div class="paper-modal-body">
+                    <div class="paper-modal-field">Developer</div>
+                    <div class="paper-modal-value">
+                      Muhammad Arshad
+                    </div>
+                    <div class="paper-modal-field">Semester</div>
+                    <div class="paper-modal-value">
+                      6th
+                    </div>
+                    <div class="paper-modal-field">Submission Date</div>
+                    <div class="paper-modal-value">May, 2023</div>
+                    <div class="paper-modal-field">Description</div>
+                    <div class="paper-modal-value">
+                      Revolutionize your assessments with our intuitive online testing app. Seamlessly administer, track, and evaluate tests in real time. Empower educators and streamline learning with customizable features, secure test-taking environments, and insightful analytics. Simplify assessment processes while ensuring accuracy and efficiency. Upgrade to a smarter way of testing today!
+                    </div>
+                    <div class="btn-wrapper">
+                      <a
+                        class="btn"
+                        href="https://github.com/Arshadcs20/Semester_Project" target="_blank"                        
+                        >GitHub Link</a
+                      >
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="column">
+                <div data-modal-target="#agg-modal" class="paper">
+                  <div class="paper-background">
+                    <img
+                      src="images/portal.png"
+                      alt="Game theory portraied by chess pieces connected by lines"
+                    />
+                    <div class="paper-title">
+                      <p>
+                        The ultimate hub for CS students: your go-to for resources, updates, collaboration, and community in one streamlined portal
+                      </p>
+                    </div>
+                  </div>
+                  <div class="paper-caption">
+                    <p>CS Student Portal</p>
+                  </div>
+                </div>
+
+                <div class="paper-modal-wrapper">
+                  <div class="paper-modal" id="agg-modal">
+                    <div class="paper-modal-header">
+                      <div class="paper-modal-title">
+                        <p>
+                          The ultimate hub for CS students: your go-to for resources, updates, collaboration, and community in one streamlined portal
+                        </p>
+                      </div>
+                      <button data-modal-close-btn class="modal-close-btn">
+                        <img
+                          src="images/menu-close.svg"
+                          alt="Close Description"
+                        />
+                      </button>
+                    </div>
+
+                    <div class="paper-modal-body">
+                      <div class="paper-modal-field">Developer</div>
+                      <div class="paper-modal-value">
+                        Muhammad Arshad
+                      </div>
+                      <div class="paper-modal-field">Semester</div>
+                      <div class="paper-modal-value">
+                        7th
+                      </div>
+                      <div class="paper-modal-field">Date</div>
+                      <div class="paper-modal-value">2023</div>
+                      <div class="paper-modal-field">Description</div>
+                      <div class="paper-modal-value">
+                        Welcome to the CS Student Portal: Your digital gateway to a world of academic excellence. Access a treasure trove of resources, from coding tutorials to the latest tech news. Stay updated with real-time academic information and upcoming events tailored for your growth. Collaborate effortlessly with peers, share insights, and embark on coding adventures together. Engage in forums, discussions, and group projects to expand your knowledge base. Seamlessly navigate your CS journey with tools designed to enhance your learning experience. Join a vibrant community dedicated to shaping the future of computer science education.
+                      </div>
+                      <div class="btn-wrapper">
+                        <a
+                          class="btn"
+                          href="https://github.com/Arshadcs20/StudentPortal/tree/master"
+                          target="_blank"
+                          >GitHub Link</a
+                        >
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="column">
+                <div data-modal-target="#hgo-modal" class="paper">
+                  <div class="paper-background">
+                    <img
+                      src="images/high-gain-phase-portrait.jpg"
+                      alt="High gain observer, phase portrait"
+                    />
+                    <div class="paper-title">
+                      <p>
+                        Unlock the vast world of computer science with the Ultimate CS Guide - your roadmap to mastery in coding, algorithms, and cutting-edge technologies.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="paper-caption">
+                    <p>Ultimate CS Guide</p>
+                  </div>
+                </div>
+
+                <div class="paper-modal-wrapper">
+                  <div class="paper-modal" id="hgo-modal">
+                    <div class="paper-modal-header">
+                      <div class="paper-modal-title">
+                        <p>
+                          Unlock the vast world of computer science with the Ultimate CS Guide - your roadmap to mastery in coding, algorithms, and cutting-edge technologies.
+                        </p>
+                      </div>
+                      <button data-modal-close-btn class="modal-close-btn">
+                        <img
+                          src="images/menu-close.svg"
+                          alt="Close Description"
+                        />
+                      </button>
+                    </div>
+
+                    <div class="paper-modal-body">
+                      <div class="paper-modal-field">Developer</div>
+                      <div class="paper-modal-value">
+                        Muhammad Arshad
+                      </div>
+                      <div class="paper-modal-field">Semester</div>
+                      <div class="paper-modal-value">
+                        7th
+                      </div>
+                      <div class="paper-modal-field">Development</div>
+                      <div class="paper-modal-value">2023</div>
+                      <div class="paper-modal-field">Description</div>
+                      <div class="paper-modal-value">
+                        Discover the Ultimate CS Guide, your comprehensive web portal illuminating every facet of computer science. Dive into a curated universe of coding languages, algorithms, frameworks, and cutting-edge technologies. Uncover in-depth tutorials, articles, and resources catering to beginners and experts alike. From AI to cybersecurity, explore a spectrum of topics vital to the CS realm. Engage with interactive content, stay updated on industry trends, and access a wealth of knowledge empowering your CS journey. Your go-to destination for mastering the vast landscape of computer science.
+                      </div>
+                      <div class="btn-wrapper">
+                        <a
+                          class="btn"
+                          href="https://github.com/Arshadcs20/CS_Guide"
+                          target="_blank"
+                          >GitHub Link</a
+                        >
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="column">
+                <div data-modal-target="#ackf-modal" class="paper">
+                  <div class="paper-background">
+                    <img src="images/brain.jpg" alt="Brain shift estimation" />
+                    <div class="paper-title">
+                      <p>
+                        Emo-Insight: Unleashing AI to decipher and analyze emotions, transforming data into profound insights.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="paper-caption">
+                    <p>Emo-Insight: An emotion analyzer</p>
+                  </div>
+                </div>
+
+                <div class="paper-modal-wrapper">
+                  <div class="paper-modal" id="ackf-modal">
+                    <div class="paper-modal-header">
+                      <div class="paper-modal-title">
+                        <p>
+                          Emo-Insight: Unleashing AI to decipher and analyze emotions, transforming data into profound insights.
+                        </p>
+                      </div>
+                      <button data-modal-close-btn class="modal-close-btn">
+                        <img
+                          src="images/menu-close.svg"
+                          alt="Close Description"
+                        />
+                      </button>
+                    </div>
+
+                    <div class="paper-modal-body">
+                      <div class="paper-modal-field">Developer</div>
+                      <div class="paper-modal-value">
+                        Muhammad Arshad
+                      </div>
+                      <div class="paper-modal-field">Semester</div>
+                      <div class="paper-modal-value">
+                        8th
+                      </div>
+                      <div class="paper-modal-field">Submission</div>
+                      <div class="paper-modal-value">2024</div>
+                      <div class="paper-modal-field">Description</div>
+                      <div class="paper-modal-value">
+                        Emo-Insight, my groundbreaking final-year project, harnesses AI to decode and analyze emotions from diverse data sources. Using cutting-edge algorithms, it delves into emotional intelligence, offering profound insights into human sentiments. From text analysis to image recognition, Emo-Insight revolutionizes emotional understanding, paving the way for impactful applications in various fields.
+                      </div>
+                      <div class="btn-wrapper">
+                        <a
+                          class="btn"
+                          href="#"
+                          target="_blank"
+                          >GitHub Link</a
+                        >
+                       
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <!--  #####################################################################
+                                     About me
+            ##################################################################### -->
+
+    <section id="intro" class="about-me">
+      <div class="container">
+        <!-- <h2>Intro</h2> -->
+        <h2>About Me</h2>
+        <hr class="title-line" />
+        <div class="description-wrapper">
+          <div class="profile-img">
+            <img src="images/profilePic.png" alt="profile picture" />
+          </div>
+          <div class="profile-img-description">
+            <p class="text-bg-dark ">Hey there!</p>
+
+            <p class="text-bg-dark ">
+              I thrive on coding solutions that tackle complex challenges.
+              Currently, I'm in the final stretch of my graduation at BZU
+              Multan, deeply immersed in the world of computer science and
+              technology.
+            </p>
+          
+            <p class="text-bg-dark ">
+              My curiosity extends to the boundless realms of AI and machine
+              learning, where I harness the power of data to create innovative,
+              data-driven models. Whether it's optimizing algorithms or
+              exploring the depths of AI, I'm driven by a relentless pursuit of
+              knowledge.
+            </p>
+
+            <p class="text-bg-dark ">
+              Beyond the screen, I indulge in the thrill of coding puzzles,
+              constantly seeking to expand my skill set. When I'm not lost in
+              lines of code, you might catch me exploring the wonders of the
+              internet, always eager to discover new horizons.
+            </p>
+
+            <p class="text-bg-dark ">Let's code the future together!</p>
+          </div>
+        </div>
+
+        <div class="btn-wrapper">
+          <a class="btn" href="./files/CV.pdf" target="_blank" download
+            >Download CV</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!--  #####################################################################
+                                     Contact me
+            ##################################################################### -->
+    <section id="contact" class="contact-me">
+      <div class="container">
+        <p class="contact-me-header">
+          Want to work together or have any questions?
+        </p>
+        <div class="contact">
+          <div class="get-in-touch">
+            <p>
+              Send me a message at
+              <a href="mailto:marshadcs20@gmail.com" target="_blank">marshadcs20@gmail.com</a>,
+              or fill in the contact form.
+            </p>
+          </div>
+
+          <div class="contact-form">
+            <form
+              name="contact"
+              data-netlify="true"
+              method="POST"
+              action="pages/success.html"
+            >
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" />
+              </div>
+              <div class="form-group">
+                <label for="email">Email address *</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <label for="message">Message *</label>
+              <div class="form-group">
+                <textarea id="message" name="message" required></textarea>
+              </div>
+              <div class="btn-wrapper">
+                <!-- <a class="btn send-btn">Send email</a> -->
+                <button type="submit" class="btn send-btn">
+                  Submit <i class="fa fa-arrow-right"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <hr class="footer-hr" />
+        <div class="footer-wrapper">
+          <div class="row">
+            <div class="column">
+              <p class="copyright-text">
+                &copy; 2023 Muhammad Arshad
+                <a
+                  href="https://github.com/Arshadcs20?tab=repositories"
+                  target="_blank"
+                  >GitHub</a
+                >.
+              </p>
+            </div>
+            <div class="social-media column">
+              <div>
+                <ul class="media-icons">
+                  <!-- <li><a href="#" class="fa fa-facebook"></a></li> -->
+                  <li class="list-item">
+                    <a
+                      href="https://www.linkedin.com/in/marshadcs20"
+                      class="fa fa-linkedin"
+                      target="_blank"
+                    ></a>
+                  </li>
+                  <li class="list-item">
+                    <a
+                      href="https://github.com/Arshadcs20"
+                      class="fa fa-github"
+                      target="_blank"
+                    ></a>
+                  </li>
+                  
+                  <!-- <li class="list-item">
+                  <a href="#" class="fa fa-youtube"></a>
+                </li> -->
+                  <li class="list-item">
+                    <a
+                      href="mailto:marshadcs20@gmail.com"
+                      class="fa fa-envelope"
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------------------------
+                  Scripts
+    ---------------------------------->
+
+    <!-- Navbar in mobile mode -->
+    <script>
+      const mobileBtn = document.getElementById("mobile-cta");
+      const nav = document.querySelector("nav");
+      const mobileBtnExit = document.getElementById("mobile-exit");
+      mobileBtn.addEventListener("click", () => {
+        nav.classList.add("menu-btn");
+      });
+      mobileBtnExit.addEventListener("click", () => {
+        nav.classList.remove("menu-btn");
+      });
+      // Close navbar by click on links
+      const mobileNavLinks = document.querySelectorAll(".nav-links li a");
+      mobileNavLinks.forEach((mobileNavLink) => {
+        mobileNavLink.addEventListener("click", () => {
+          nav.classList.remove("menu-btn");
+        });
+      });
+    </script>
+
+    <!-- Transparent navbar at y=0 -->
+    <script>
+      const body = document.body;
+      window.addEventListener("scroll", () => {
+        const currenScroll = window.pageYOffset;
+        if (currenScroll <= 0) {
+          body.classList.remove("navbar-transparent");
+        }
+        if (currenScroll > 0) {
+          body.classList.add("navbar-transparent");
+        }
+      });
+    </script>
+
+    <!-- Paper darken on hover -->
+    <script>
+      const selectedPaperItems = document.querySelectorAll(".paper");
+
+      selectedPaperItems.forEach((selectedPaperItem) => {
+        selectedPaperItem.addEventListener("mouseover", () => {
+          selectedPaperItem.childNodes[1].classList.add(
+            "paper-background-darken"
+          );
+        });
+
+        selectedPaperItem.addEventListener("mouseout", () => {
+          selectedPaperItem.childNodes[1].classList.remove(
+            "paper-background-darken"
+          );
+        });
+      });
+    </script>
+
+    <!-- For  paper modal -->
+    <script>
+      const openModalButtons = document.querySelectorAll("[data-modal-target]");
+      const closeModalButtons = document.querySelectorAll(
+        "[data-modal-close-btn]"
+      );
+      const overlay = document.getElementById("overlay");
+
+      openModalButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          const modal = document.querySelector(button.dataset.modalTarget);
+          openModal(modal);
+        });
+      });
+
+      closeModalButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          const modal = button.closest(".paper-modal");
+          closeModal(modal);
+        });
+      });
+
+      overlay.addEventListener("click", () => {
+        const modals = document.querySelectorAll(".paper-modal.active");
+        modals.forEach((modal) => {
+          closeModal(modal);
+        });
+      });
+
+      window.addEventListener("keydown", function (event) {
+        if (event.key === "Escape") {
+          const modals = document.querySelectorAll(".paper-modal.active");
+          modals.forEach((modal) => {
+            closeModal(modal);
+          });
+        }
+      });
+
+      function openModal(modal) {
+        if (modal == null) return;
+        modal.classList.add("active");
+        overlay.classList.add("active");
+        // avoid scroll when popup is active
+        $("body").css("overflow", "hidden");
+      }
+
+      function closeModal(modal) {
+        if (modal == null) return;
+        modal.classList.remove("active");
+        overlay.classList.remove("active");
+        // avoid scroll when popup is active
+        $("body").css("overflow", "auto");
+      }
+    </script>
+
+    <!-- smooth scroll -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        // Add smooth scrolling to all links
+        $("a").on("click", function (event) {
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $("html, body").animate(
+              {
+                scrollTop: $(hash).offset().top,
+              },
+              800,
+              function () {
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              }
+            );
+          } // End if
+        });
+      });
+    </script>
+  </body>
+</html>
